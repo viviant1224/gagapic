@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:shimmer="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/egg_luck_view"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:layout_marginTop="5dip"
+    android:layout_marginBottom="5dip"
+    android:weightSum="4.0"
+    android:orientation="horizontal">
+
+    <com.viviant.gagapic.adview.widget.ShimmerFrameLayout
+        android:id="@+id/egg_container1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        shimmer:duration="2000">
+
+        <ImageView
+            android:id="@+id/egg1"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:layout_gravity="center"
+            android:src="@mipmap/egg1"></ImageView>
+
+    </com.viviant.gagapic.adview.widget.ShimmerFrameLayout>
+    <com.viviant.gagapic.adview.widget.ShimmerFrameLayout
+        android:id="@+id/egg_container2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        shimmer:duration="2000">
+
+        <ImageView
+            android:id="@+id/egg2"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:layout_gravity="center"
+            android:src="@mipmap/egg2"></ImageView>
+
+    </com.viviant.gagapic.adview.widget.ShimmerFrameLayout>
+    <com.viviant.gagapic.adview.widget.ShimmerFrameLayout
+        android:id="@+id/egg_container3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        shimmer:duration="2000">
+
+        <ImageView
+            android:id="@+id/egg3"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:layout_gravity="center"
+            android:src="@mipmap/egg3"></ImageView>
+
+    </com.viviant.gagapic.adview.widget.ShimmerFrameLayout>
+    <com.viviant.gagapic.adview.widget.ShimmerFrameLayout
+        android:id="@+id/egg_container4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        shimmer:duration="2000">
+
+        <ImageView
+            android:id="@+id/egg4"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:layout_gravity="center"
+            android:src="@mipmap/egg1"></ImageView>
+
+    </com.viviant.gagapic.adview.widget.ShimmerFrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:shimmer="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/egg_view_item"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/app_item_bg"
+    android:layout_marginTop="5dip"
+    android:layout_marginBottom="5dip"
+    android:orientation="vertical">
+
+    <com.viviant.gagapic.adview.widget.ShimmerFrameLayout
+        android:id="@+id/shimmer_view_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        shimmer:duration="1000">
+
+        <ImageView
+            android:id="@+id/app_icon"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="12dip"
+            android:layout_marginRight="10dip"
+            android:clickable="false"
+            android:paddingBottom="5dip"
+            android:paddingTop="5dip"
+            android:src="@mipmap/egg"></ImageView>
+
+    </com.viviant.gagapic.adview.widget.ShimmerFrameLayout>
+
+  <!--  <TextView
+        android:id="@+id/app_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/luck_try"
+        android:textColor="@color/color_text"
+        android:textSize="14sp" />-->
+
+</LinearLayout>

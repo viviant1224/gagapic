@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center">
+
+    <ImageView
+        android:id="@+id/wheel_inner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="40dip"
+        android:layout_marginRight="40dip"
+        android:src="@mipmap/shuffle_wheel_inner"
+        />
+
+    <ImageView
+        android:id="@+id/light"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="40dip"
+        android:layout_marginRight="40dip"
+        android:src="@mipmap/shuffle_light"
+        />
+
+    <ImageView
+        android:id="@+id/main_wheel_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="40dip"
+        android:layout_marginRight="40dip"
+        android:src="@mipmap/shuffle_wheel_bg"
+        />
+
+    <ImageView
+        android:id="@+id/point"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="40dip"
+        android:layout_marginRight="40dip"
+        android:src="@mipmap/shuffle_point"
+        />
+
+    <LinearLayout
+        android:id="@+id/result_container"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:layout_marginTop="40dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <View
+            android:id="@+id/download_row_line"
+            android:layout_width="fill_parent"
+            android:layout_marginLeft="2dip"
+            android:layout_marginRight="2dip"
+            android:layout_marginTop="2dip"
+            android:layout_height="8.0dip"
+            android:background="@drawable/shape_green_round" />
+
+        <LinearLayout
+            android:id="@+id/smile_bg"
+            android:layout_width="match_parent"
+            android:layout_height="100dip"
+            android:background="@color/color_background"
+            android:gravity="center"
+            android:layout_marginLeft="2dip"
+            android:layout_marginRight="2dip"
+            android:orientation="vertical">
+
+            <ImageView   android:id="@+id/img_luck_egg"
+                android:layout_width="70dip"
+                android:layout_height="70dip"
+                android:layout_marginTop="2dip"
+                android:src="@mipmap/smile" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginLeft="2dip"
+            android:layout_marginRight="2dip"
+            android:id="@+id/ad_view"
+            android:layout_width="match_parent"
+            android:layout_height="250dip"
+            android:background="@color/color_background"
+            android:orientation="vertical">
+        </LinearLayout>
+
+        <Button
+            android:layout_marginLeft="2dip"
+            android:layout_marginRight="2dip"
+            android:layout_marginBottom="2dip"
+            android:id="@+id/close"
+            android:layout_width="match_parent"
+            android:text="CLOSE"
+            android:textSize="18dp"
+            android:layout_height="60dip"
+            android:background="@drawable/button_green" />
+
+    </LinearLayout>
+
+</FrameLayout>

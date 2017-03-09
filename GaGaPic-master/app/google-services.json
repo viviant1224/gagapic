@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "715788597945",
+    "firebase_url": "https://gagapic-f8c93.firebaseio.com",
+    "project_id": "gagapic-f8c93",
+    "storage_bucket": "gagapic-f8c93.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715788597945:android:44511d49ee1dead4",
+        "android_client_info": {
+          "package_name": "com.viviant.gaga.searchpic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "715788597945-dpircomepbgklbrc19k9tlangir57bgb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNL_RAs66MKp2uxwne5kjoOxgMDxj06N0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

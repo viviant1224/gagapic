@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">HealthKnowledge</string>
+    <string name="luck_try">try</string>
+    <string name="luck_bad">try again!</string>
+    <string name="luck_good">good luck</string>
+
+    <string name="device_id">359274076201878</string>
+    <!--<string name="device_id">6BA3752AF66F8D8553248A71886E648D</string>-->
+    <string name="facebook_app_id">XXXXXXXXXXXXXXXXXXXXXXXXXX</string>
+    <string name="admob_id_small">ca-app-pub-6499228057968493/7533357360</string>
+    <string name="admob_id_medium">ca-app-pub-6499228057968493/7533357360</string>
+    <string name="admob_id_big">ca-app-pub-6499228057968493/7533357360</string>
+    <string name="google_analytics_id">UA-93235570-1</string>
+
+</resources>

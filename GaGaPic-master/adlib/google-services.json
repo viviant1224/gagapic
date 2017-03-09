@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "272984807757",
+    "firebase_url": "https://kk-chopstick-cleanup.firebaseio.com",
+    "project_id": "kk-chopstick-cleanup",
+    "storage_bucket": "kk-chopstick-cleanup.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272984807757:android:c42ed1694a8725fd",
+        "android_client_info": {
+          "package_name": "com.chop.sticks.cleanup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "272984807757-7c6o5k2i0qk6eeucldiek8vkaafe19uk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAt-Pxz2oQ8uqs8RI_Ydn6u-LJqlQ0fYVo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
